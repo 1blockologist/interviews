@@ -21,4 +21,5 @@ highLevelStorage.batchPut([   // returns a Promise
 ])
 ```
 
-Implement the `wrap` function above. If you're feeling ambitious, write a lowLevelStorage mock, and test your implementation.
+- implement the `wrap` function above
+- write a lowLevelStorage mock, and test your implementation
