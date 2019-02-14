@@ -8,6 +8,8 @@ put(key, value, callback)
 del(key, callback)
 ```
 
+*Note: callbacks are always called asynchronously!*
+
 You hate callbacks, and want to write a wrapper that exports a promise-based interface, as well as an additional higher level function `batchPut`. The sample usage looks like this:
 
 ```js
